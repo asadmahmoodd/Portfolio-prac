@@ -71,6 +71,9 @@ body {
      gap: 40px;
      align-items: center;
      justify-content:space-evenly ;
+     position:  sticky;
+     top: 0;
+     background-color: #ffff;
  }
 
  #hireme:hover{
