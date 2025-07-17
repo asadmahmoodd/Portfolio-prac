@@ -346,6 +346,7 @@ body {
   #head {
     flex-direction: column;
     gap: 10px;
+    position: static;
   }
 
   #navbar {
