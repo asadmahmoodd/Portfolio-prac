@@ -1,0 +1,428 @@
+*{
+  scroll-behavior:smooth;
+}
+body {
+     font-family: Poppins;
+     background-color: #ffff;
+     margin: 0%;
+     margin-top: 15px;
+ }
+
+ #dwCv {
+     background: rgb(253, 111, 0);
+     width: 170px;
+     height: 45px;
+     border-radius: 5px;
+     border: none;
+     color: white;
+     font-size: 12pt;
+     font-weight: 550;
+     transition: all 0.3s;
+ }
+
+ #dwCv:hover{
+  box-shadow: 4px 4px 4px rgb(253, 111, 0);
+  cursor: pointer;
+  transform: scale(1.05);
+ }
+
+ .navbtnul {
+     display: flex;
+     gap: 20px;
+ }
+
+ .navitems {
+     list-style: none;
+          transition: all 0.5s;
+          cursor: pointer;
+
+    
+ }
+
+ .navanchor {
+     text-decoration: none;
+     color: black;
+     transition: all 0.5s;
+ }
+ .navanchor:hover{
+  color:rgb(253, 111, 0);
+  transform: scale(1.05);
+
+ }
+
+ .navitems:hover{
+  color:rgb(253, 111, 0);
+    transform: scale(1.05);
+
+ }
+
+ #navbar {
+     display: flex;
+     gap: 30px;
+ }
+
+ #headLogo {
+     width: 270px;
+     height: 60px;
+ }
+
+ #head {
+     display: flex;
+     gap: 40px;
+     align-items: center;
+     justify-content:space-evenly ;
+ }
+
+ #hireme:hover{
+   box-shadow: 4px 4px 4px rgb(253, 111, 0);
+  cursor: pointer;
+  padding: 10px;
+    transform: scale(1.05);
+
+  
+ }
+ #hireme {
+     background: rgb(253, 111, 0);
+     width: 170px;
+     height: 45px;
+     border-radius: 5px;
+     border: none;
+     color: white;
+     transition: all 0.3s;
+     font-size: 12pt;
+     font-weight: 550;
+ }
+
+ #personstnd {
+     width: 300px;
+     height: 350px;
+ }
+
+ #socialLogo {
+     display: flex;
+     gap: 10px;
+     justify-content: center;
+ }
+
+
+ #abtmepic {
+     display: flex;
+     justify-content: center;
+ }
+
+ #Main {
+     display: flex;
+     gap: 25px;
+     align-items: center;
+     justify-content: center;
+     width: 80%;
+ }
+
+ #abtmetxt {
+     display: flex;
+     flex-direction: column;
+ }
+
+ #intro {
+     width: 50%;
+ }
+
+ #picture-con {
+     width: 50%;
+     display: flex;
+     gap: 18px;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ #abtme-main {
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+ }
+
+ p.mainpara {
+     margin: 0px;
+ }
+
+ #abtme-con {
+     display: flex;
+    gap:30px;
+     align-items: center;
+     width: 80%;
+ }
+
+ #main-con {
+     margin-top: 55px;
+     display: flex;
+     justify-content: center;
+ }
+
+ a.socialLogo {
+     text-decoration: none;
+     color: black;
+     transition: all 0.3s;
+    
+ }
+
+ a.socialLogo:hover{
+  color: rgb(253, 111, 0);
+    transform: scale(1.1);
+
+  
+ }
+
+ #servicemain {
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+
+ }
+
+ #service-con {
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     gap: 25px;
+
+ }
+
+ .service-content {
+     background-color: rgb(248, 248, 248);
+     width: 25%;
+     transition: all 0.5s;
+ }
+
+ .service-content:hover{
+  box-shadow:  3px 4px 5px  rgb(253, 111, 0);
+    transform: scale(1.05);
+
+ }
+
+ #servoffr {
+     display: flex;
+     gap: 25px;
+ }
+
+ #myProjects-main {
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+ }
+
+ #myProjects-con {
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+
+ .Web-Design {
+     font-size: 10pt;
+     color: rgb(253, 111, 0);
+     margin: 0%;
+ }
+
+ .proj-desc {
+     font-size: 13pt;
+     font-weight: 400;
+     margin: 0%;
+     width: 200px;
+
+ }
+
+ .projButton{
+    border-color: grey ;
+    background: color #f8f8f8;
+    border-radius: 6px;
+    border-width:thin ;
+    padding: 5px 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: 550;
+    font-size: 11pt;
+    margin: 1%;
+    white-space: nowrap;
+    transition: all 0.3s;
+    cursor: pointer;
+ }
+
+ .projButton:hover{
+   background-color:rgb(253, 111, 0); 
+   color: white;
+     transform: scale(1.05);
+
+ }
+
+ 
+
+ .projimg {
+     width: 160px;
+     height: 210px;
+     padding: 15px;
+     background-color: #FFEBDB;
+     border-radius: 10px;
+ }
+ .slider
+ {
+   accent-color:rgb(253, 111, 0);  
+   width: 400px;
+ }
+
+ #projectPics {
+     display: flex;
+     justify-items: center;
+     gap: 15px;
+     margin-top: 30px;
+ }
+
+ #footer-con{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #f8f8f8;
+ }
+
+ #button-main{
+    display: flex;
+    justify-content: center;
+ }
+ 
+#buttons{
+  display: flex;          
+  flex-wrap: wrap;        
+  justify-content: center;
+  gap: 10px;              
+}
+
+
+ #bottom{
+    background-color: grey;
+    display: block;
+    width: 100%;
+
+ }
+
+ #testimonial-main{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+
+ }
+
+ .servlogo{
+    width:2.5rem;
+    height:3rem
+ }
+
+ #test-img{
+    border-radius: 800px;
+ }
+ #testimonial-con{
+    width: 80%;
+ }
+
+ #testimonial{
+    margin-top: 70px;
+    display: flex;
+    gap: 50px;
+    background-color: #f8f8f8;
+    padding: 20px;
+
+ }
+ 
+ @media (max-width: 780px) {
+
+  body {
+    margin-top: 0;
+  }
+
+  #head {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .navbtnul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    align-items: center;
+  }
+
+  #Main {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #intro, #picture-con {
+    width: 90%;
+    text-align: center;
+  }
+
+  #abtme-con {
+    flex-direction: column;
+    width: 80%;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .slider {
+    width: 90%;
+  }
+
+  #servoffr {
+    flex-direction: column;
+    align-items: center;
+  }
+
+ .service-content{
+  width: 80%;
+ }
+
+
+
+  #projectPics {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projimg {
+    width: 70%;
+    height: auto;
+  }
+
+  .proj-desc {
+    width: 90%;
+    text-align: center;
+  }
+
+  #testimonial {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #testimonial-img img {
+    width: 150px;
+    height: 150px;
+  }
+
+  #footer-con ul.navbtnul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer-con img {
+    width: 120px;
+    height: auto;
+  }
+}
